@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utilities  */
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: light;
+}
+
+/* backgrounds of all section  */
+.header {
+  background: linear-gradient(#03071e, #370617);
+  min-height: 100vh;
+}
+.my-work {
+  background: linear-gradient(#370617, #b7094c);
+  min-height: 100vh;
+}
+.about-me {
+  background: linear-gradient(#b7094c, #b7094c);
+  min-height: 100vh;
+}
+.skills {
+  background: linear-gradient(#b7094c, #370617);
+  min-height: 100vh;
+}
+.contact-me {
+  background: linear-gradient(#370617, #03071e);
+  min-height: 100vh;
+}
+
+/* header  */
+
+/* navigation and logo  */
+.top-bar {
+  color: #ffffff;
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-icon {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+nav > ul {
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 1em;
+  padding: 0.3em 1em;
+  transition: max-height 500ms ease-out;
+}
+nav ul li {
+  border-bottom: 1px solid #03071e;
+  transition: all 250ms ease-in-out;
+}
+nav ul li:last-child {
+  border-bottom: 0;
+}
+nav ul li a {
+  padding: 0.3em 0;
+  color: #03071e;
+  font-weight: 400;
+  transition: all 250ms ease-in-out;
+}
+
+/* header hero section  */
+
+/* back-to-top  */
+.fixed-btn {
+  color: #fff;
+  font-size: 5em;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
